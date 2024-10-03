@@ -95,6 +95,6 @@ const evaluateExpression = (expression) => {
 
 // Testing the expression 
 // const expression = '10*2/4*(4*7/2)';
-const expression = '1+(2+3)*4-10/2';
+const expression = '1++(2+3)*4-10/2';
 const result = evaluateExpression(expression);
 console.log(result); // Output: 16

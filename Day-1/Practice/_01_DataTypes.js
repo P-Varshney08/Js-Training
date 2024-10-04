@@ -1,3 +1,5 @@
+// Primitive Data-types = number, boolean, string, null, undefined, symbol
+
 let message = "Hello";      // string type
 console.log(typeof(message));
 console.log(isNaN(message));
@@ -18,3 +20,20 @@ let symbol = Symbol("symbol"); // symbol type
 
 let nullValue = null;     // object type
 console.log("type of null is: ", typeof(nullValue));
+
+// Reference data-types = 
+// all values that on being copied, their reference is passed not the main value 
+
+var a=12;
+var b=a;
+
+console.log(a==b);
+a+=2;
+console.log(a, b);
+
+const arr = [1, 2, 3, 4, 5];
+
+const arrCopy = arr;
+arr.pop();
+
+console.log(arr, arrCopy);

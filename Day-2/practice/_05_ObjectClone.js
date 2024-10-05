@@ -31,7 +31,6 @@ let obj1 = {
 // 3. object.assign 
 // 4. Structured clone
 
-
 // 1. Using spread operator - shallow copy
 
 /*

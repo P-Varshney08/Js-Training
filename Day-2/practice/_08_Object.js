@@ -11,8 +11,11 @@ console.log(myInfo)
 
 // ...spread -> spread operator is used to unpack values from an array.
 
+/*
 function myBio(fname, lname, company) {
     return `${fname} ${lname} ${company}`;
 }
 
 console.log(myBio(...["Priya", "Varshney", "Bigoh"]));
+*/
+

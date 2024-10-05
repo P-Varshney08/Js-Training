@@ -47,4 +47,3 @@ function generateURL(obj) {
 }
 
 console.log(generateURL(obj1));
-
